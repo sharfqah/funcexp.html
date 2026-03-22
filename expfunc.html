@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="id2">Helloo</p>
+    <p id="id2"></p>
+    <button onclick="f1(7)"">Click me</button>
+    <script>
+        function f1(a,b){
+            if(a===undefined){
+                a=8;
+            }
+            document.write(a * b);
+        }
+
+        var a = 9
+        var name = "Shar"
+
+        let x = 86
+        const z = 7
+
+        let b = function (a,b){
+            return a+b;
+        };
+        document.getElementById("id2").innerHTML = b(5,6);
+    </script>
+</body>
+</html>
